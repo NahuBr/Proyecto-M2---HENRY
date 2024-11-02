@@ -1,0 +1,208 @@
+/* Reset CSS completo */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.15;
+    /* Corrige el espacio entre líneas en algunas versiones de IE */
+    -webkit-text-size-adjust: 100%;
+    /* Previene el ajuste de tamaño de fuente en dispositivos móviles */
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    line-height: 1.6;
+}
+
+main {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+p,
+ul,
+ol,
+dl,
+blockquote,
+figure,
+pre,
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: '';
+    content: none;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
+}
+
+img,
+video {
+    border: 0;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+svg {
+    fill: currentColor;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+caption {
+    text-align: left;
+}
+
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+[role="button"] {
+    cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+code,
+kbd,
+samp,
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline dotted;
+}
+
+address {
+    font-style: normal;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+dfn {
+    font-style: italic;
+}
+
+mark {
+    background-color: #ff0;
+    color: #000;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
